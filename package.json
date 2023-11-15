@@ -1,0 +1,24 @@
+{
+	"name": "replace-circular-object",
+	"version": "1.0.0",
+	"description": "Retrieve a duplicate of the given object, eliminating any circular references.",
+	"main": "index.mjs",
+	"types": "types/index.d.ts",
+	"type": "module",
+	"exports": {
+		"import": "./index.mjs",
+		"require": "./index.cjs"
+	},
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/javier-sierra-sngular/replace-circular-object"
+	},
+	"keywords": [
+		"circular"
+	],
+	"author": "Javi",
+	"license": "MIT",
+	"scripts": {
+		"test": "node test/test.js"
+	}
+}
