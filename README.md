@@ -1,3 +1,5 @@
+<span class="badge-npmversion"><a href="https://www.npmjs.com/package/replace-circular-object" title="View this project on NPM"><img src="https://img.shields.io/npm/v/replace-circular-object.svg" alt="NPM version" /></a></span>
+
 ## Summary
 
 Retrieve a duplicate of the given object, eliminating any circular references.
@@ -8,6 +10,10 @@ If no default value is specified, an empty object or array will be used.
 If no depth limit is specified, the function will replace circular references at the first occurrence with a depth limit of 0.
 
 > CommonJS & ESM supported
+
+## Requirements
+
+Node >= 12
 
 ## Installation
 
@@ -26,4 +32,4 @@ const replacedObject = replaceCircularObject(circularObject, 'Default Value!', 3
 console.log(replacedObject); // { property: { property: { property: 'Default Value!' } } }
 ```
 
-More examples at [test/test.js](test/test.js)
+More examples at [test/index.test.js](test/index.test.js)
