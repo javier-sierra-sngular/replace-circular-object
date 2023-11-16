@@ -9,7 +9,7 @@ This function replaces circular references with a specified default value when t
 If no default value is specified, an empty object or array will be used.
 If no depth limit is specified, the function will replace circular references at the first occurrence with a depth limit of 0.
 
-> CommonJS & ESM supported
+<i>CommonJS & ESM supported</i>
 
 ## Requirements
 
@@ -19,11 +19,23 @@ Node >= 12
 
 > npm i replace-circular-object
 
-## Usage
+## Importing
+
+ESM import
 
 ```js
 import replaceCircularObject from 'replace-circular-object';
+```
 
+CommonJS require
+
+```js
+const { replaceCircularObject } = require('replace-circular-object');
+```
+
+## Usage
+
+```js
 const circularObject = {};
 circularObject.property = circularObject;
 
