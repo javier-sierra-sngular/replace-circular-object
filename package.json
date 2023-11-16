@@ -23,7 +23,7 @@
 	],
 	"repository": {
 		"type": "git",
-		"url": "https://github.com/javier-sierra-sngular/replace-circular-object"
+		"url": "https://github.com/sngular/replace-circular-object"
 	},
 	"keywords": [
 		"circular"
