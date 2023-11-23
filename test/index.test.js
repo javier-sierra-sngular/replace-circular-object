@@ -1,4 +1,4 @@
-import replaceCircularObject from '../src/index.js';
+import { replaceCircularObject } from '../src/index.js';
 import assert from 'node:assert';
 
 const circularObject = {};

@@ -1,3 +1,4 @@
+/* eslint-disable @typescript-eslint/no-var-requires */
 const { replaceCircularObject } = require('../dist/index.cjs');
 const assert = require('node:assert');
 
